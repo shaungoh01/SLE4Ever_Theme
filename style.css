@@ -1,0 +1,44 @@
+/*
+Theme Name: SLE4Ever Theme
+Author: Shaun Goh
+Author URI: http://sle4ever.com
+version: 2.0
+*/
+body{
+	background-color:#eff2f4;
+	font-family:"RobotoDraft",Helvetica,Arial,sans-serif;
+	padding-top: 64px;
+}
+.admin-bar .navbar-fixed-top {
+  top: 32px;
+}
+nav.navbar{
+	background-color: #2a323a;
+	color:white;
+}
+.navbar-default .navbar-brand{
+	color: white;
+}
+.navbar-default .navbar-brand:hover{
+	color: #94b6b8;
+}
+.navbar-default .navbar-brand:visited{
+	color: white;
+}
+.navbar-default .navbar-nav>li>a{
+	color:white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:white;
+	background-color:#405f60;
+}
+.navbar-default .navbar-nav>li>a:visited{
+	color:white;
+}
+section.index-post{
+	margin-top:50px;
+}
+.panel-body{
+	padding-top: 15px;
+	padding-left: 10px;
+}
