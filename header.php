@@ -12,18 +12,19 @@
 	    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css" type="text/css">
 
 	    <!-- Plugin CSS -->
-    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>css/animate.min.css" type="text/css">
+    	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.min.css" type="text/css">
 
 	    <!-- Bootstrap Core JavaScript -->
-	    <script src="js/bootstrap.min.js"></script>
+	    
+	    <script src="<?php echo get_template_directory_uri()?>/js/bootstrap.min.js"></script>
 
 	    <!-- Plugin JavaScript -->
-	    <script src="js/jquery.easing.min.js"></script>
-	    <script src="js/jquery.fittext.js"></script>
-	    <script src="js/wow.min.js"></script>
+	    <script src="<?php echo get_template_directory_uri()?>/js/jquery.easing.min.js"></script>
+	    <script src="<?php echo get_template_directory_uri()?>/js/jquery.fittext.js"></script>
+	    <script src="<?php echo get_template_directory_uri()?>/js/wow.min.js"></script>
 
 	    <!-- Custom Theme JavaScript -->
-	    <script src="js/creative.js"></script>
+	    <script src="<?php echo get_template_directory_uri()?>/js/creative.js"></script>
 
     	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
 	</head>
